@@ -26,7 +26,7 @@ except IOError:
 install_requires = [
     'pyramid',
     'zodburi',
-    'ZODB3>=3.10',
+    'ZODB>=4.0.0b1',
     ]
 
 docs_extras = ['Sphinx']
